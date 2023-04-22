@@ -130,6 +130,8 @@
             style="width: 100px"
             ;
             placeholder="Enter your pin"
+                  minlength="6"
+            maxlength="6"
             value
             required
           /><br /><br />
@@ -203,22 +205,23 @@
             cols="40"
             placeholder="Street"
             id="street"
+                    name="Street"
           ></textarea>
         </fieldset>
         <fieldset class="rating">
           <legend>Rating Section</legend>
           <p><u>Quality of Product recieved:</u></p>
-          Excellent<input type="radio" id="1" name="rating" /><br /><br />
-          Good <input type="radio" id="2" name="rating" /> <br /><br />
-          Bad <input type="radio" id="3" name="rating" />
+          Excellent<input type="radio" id="1" name="Quality:" /><br /><br />
+          Good <input type="radio" id="2" name="Quality:" /> <br /><br />
+          Bad <input type="radio" id="3" name="Quality:" />
           <p><u>Value for Money:</u></p>
-          Excellent <input type="radio" id="4" name="rating1" /> <br /><br />
-          Good <input type="radio" id="5" name="rating1" /> <br /><br />
-          Bad <input type="radio" id="6" name="rating1" />
+          Excellent <input type="radio" id="4" name="Value for money:" /> <br /><br />
+          Good <input type="radio" id="5" name="Value for money:" /> <br /><br />
+          Bad <input type="radio" id="6" name="Value for money:" />
           <p><u>Delievery:</u></p>
-          Excellent <input type="radio" id="7" name="rating2" /> <br /><br />
-          Good <input type="radio" id="8" name="rating2" /> <br /><br />
-          Bad <input type="radio" id="9" name="rating2" /> <br /><br />
+          Excellent <input type="radio" id="7" name="Delievery" /> <br /><br />
+          Good <input type="radio" id="8" name="Delievery" /> <br /><br />
+          Bad <input type="radio" id="9" name="Delievery" /> <br /><br />
         </fieldset>
         <br />
         <input type="submit" value="Submit" name="submit" id="submit" />
